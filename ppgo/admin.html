@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" >
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    </head>
+    <body>
+        <div class="alert alert-secondary" role="alert">
+            <style>
+                body {
+                  background-image: url('./adminbackpic.jpg');
+                  background-size: cover;
+                }
+                </style>
+            <h2><center>Admin</center></h2>
+            
+        <form action="/addh.html">
+        <div class="imgcontainer">
+            <img src='./adminbackpic.jpg'
+                 alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+            
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            
+        </div>
+    </form>
+    </body>
+</html>
